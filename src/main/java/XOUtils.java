@@ -126,7 +126,7 @@ public class XOUtils {
 	
 	if (newGame.board[col][row].equals(xo)) {
 	  if (newGame.board[col-1][row+1].equals(xo)) {
-	    if (newGame.board[col-1][row+1].equals(xo)) {
+	    if (newGame.board[col-2][row+2].equals(xo)) {
 		  System.out.println(newGame.toString());
 		  System.out.println("You win! Well done!");
 		  return true;		  
